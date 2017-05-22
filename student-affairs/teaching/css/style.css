@@ -1,0 +1,10 @@
+a:hover,a.focus{
+	text-decoration: none;
+}
+a{display: inline-block;height: 100%;width: 100%;line-height: 40px;}
+.s-panel{padding: 0 0;height: 40px;}
+.panel-title{height: 100%;}
+.panel-title .suojin-2{text-indent: 2rem;display: inline-block;}
+.s-title{text-align: center;}
+.s-panel-default{border: none;}
+.panel-title .suojin-4{text-indent: 4rem;display: inline-block;}

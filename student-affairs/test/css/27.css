@@ -1,0 +1,11 @@
+html{font-size:62.5%;}
+body{
+	font-size: 1.8rem;
+}
+.container{
+	box-shadow: 0 8px 10px 10px  #888888;
+	min-height:100vh;
+}
+.panel-heading{text-align: center;}
+span{display: inline-block;line-height: 40px;}
+.ol-style li{list-style-type: none;}

@@ -1,0 +1,17 @@
+html{font-size:62.5%;}
+body{
+	font-size: 1.8rem;
+}
+.container{
+	
+	min-height: 100vh;
+}
+@media only screen and (min-width: 1000px){
+    .container{box-shadow: 0 8px 10px 10px  #888888;}
+}
+.panel-heading{text-align: center;}
+span{display: inline-block;line-height: 4rem;}
+.ol-style li{list-style-type: none;}
+@media only screen and (max-width: 999px){
+    ol,ul{padding-left: 20px;}
+}
