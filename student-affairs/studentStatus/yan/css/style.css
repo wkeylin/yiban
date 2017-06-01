@@ -13,5 +13,5 @@ body{
 span{display: inline-block;line-height: 4rem;}
 .ol-style li{list-style-type: none;}
 @media only screen and (max-width: 999px){
-    ol,ul{padding-left: 15px;}
+    ol,ul{padding-left: 20px;}
 }

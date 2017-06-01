@@ -56,7 +56,7 @@ $(function() {
             var item = null;
             for (var i = 0; i < len; i++) {
                 item = document.createElement('li');
-                item.innerHTML = list[i];
+                item.innerHTML = list[i]+'<br>';
                 OList.append(item);
             }
         }
