@@ -1,0 +1,131 @@
+@media screen and (max-width:719px) {
+    body {
+        background: url("../images/drawable-hdpi/yiban (2).png");
+    }
+    .header {
+        padding-top: .4rem;
+        padding-left: .4rem;
+    }
+    .info-title {
+        font-size: .4rem;
+    }
+}
+
+@media screen and (max-width:1079px) and (min-width:720px) {
+    body {
+        background: url("../images/drawable-xhdpi/yiban (2).png");
+    }
+    .header {
+        padding-top: .4rem;
+    }
+    .info-title {
+        font-size: .4rem;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    body {
+        background: url("../images/drawable-xxhdpi/yiban (2).png");
+    }
+    .header {
+        padding-top: .2rem;
+        padding-left: .2rem;
+    }
+    .info-title {
+        font-size: .3rem;
+    }
+    .container{
+        display: none;
+    }
+}
+
+body {
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.info {
+    width: 90%;
+    height: auto;
+    display: table;
+}
+
+.info-logo {
+    width: .97rem;
+    height: .4rem;
+    background: url("../images/drawable-xxhdpi/yiban (3).png") no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.info-title {
+    float: left;
+    color: #fff100;
+    width: calc(100% - 0.97rem);
+    text-align: center;
+    line-height: .4rem;
+}
+.nav{
+    width: 42%;
+    padding 0 20%;
+    height: auto;
+    margin: 9% auto;
+}
+.nav ul{
+    height: auto;
+    display: table;
+}
+.nav ul li{
+    display: block;
+    width: 0.7rem;
+    height: 0.75rem;
+    float: left;
+    background: url("../images/drawable-xxhdpi/yiban (4).png") no-repeat center;
+    background-size: cover;
+    line-height: 0.75rem;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.nav .nav-child2{
+    margin-left: .55rem;
+}
+
+.nav-child2 li:nth-child(1){
+    margin-right: .4rem
+}
+.nav .nav-child1{
+    margin:0 .4rem;
+}
+.container{
+    position: relative;
+    width: 3rem;
+    background: #4d9bfb;
+    height: 3.5rem;
+}
+.layui-layer-title{
+    display: none;
+}
+.layui-layer-content{
+    height: 100%!important;
+}
+.layer-anim{
+    border-radius: 20px!important;
+    background: #4d9bfb!important;
+}
+.layui-layer-content{
+    border-radius: 20px;
+}
+.content-head{
+    padding:0 1.2rem;
+    height: auto;
+    box-sizing: border-box;
+}
+.content-head img{
+    text-align: center;
+}
